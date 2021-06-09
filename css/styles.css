@@ -68,7 +68,7 @@ h2,h3{
 /* TITLE */
 #title .container-fluid{
     padding-top: 3%;
-    text-align: left;
+    /* text-align: left; */
 }
 
 /* title-image */
@@ -77,7 +77,7 @@ h2,h3{
     
     transform: rotate(25deg);
     position:absolute;
-    right:20%;
+    right:25%;
     width:20rem;
 }
 
@@ -169,6 +169,12 @@ line-height: 1.5;
     }
     .title-image{
         position: static;
-transform: rotate(0);
+        transform: rotate(0);
+    }
+    .navbar-brand{
+        font-size: 3rem;
+    }
+    .navbar-toggler{
+        font-size: 3.5rem;
     }
 }
